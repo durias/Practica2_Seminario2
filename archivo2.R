@@ -10,6 +10,7 @@ histograma<-hist(df_sales$weight,
      xlab = "Pesos",
      ylab = "Frecuencia",
      ylim = c (0, 25000),
-     main = "Histograma y polígono de frecuencia de los pesos",labels = T)
+     main = "Histograma y polígono de frecuencia de los pesos",
+     labels = T)
 
 lines(c(0,histograma$mids),c(0,histograma$counts), type = "b", pch = 1, lwd = 2, col = "blue")
