@@ -1,4 +1,4 @@
-
+########################################################################################################################
 #Grafico 1 - Histograma y poligono de frecuencia del peso
 
 df_cardio_train <- read.csv(file = 'C:/Archivos_P2/cardio_train.csv')

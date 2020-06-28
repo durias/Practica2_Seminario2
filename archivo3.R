@@ -12,7 +12,7 @@ sub_tabla <- sub_tabla[c("age","suicides_no")]
 nombres<-sub_tabla$age
 nombres<-replace(nombres,nombres=="1-4","01-04")
 nombres<-replace(nombres,nombres=="5-9","05-09")
-nombres<-replace(nombres,nombres=="Childish","05-09")
+nombres<-replace(nombres,nombres=="Childish","01-04")
 nombres<-replace(nombres,nombres=="100 and over","99+")
 
 valores<-sub_tabla$suicides_no
