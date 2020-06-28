@@ -1,9 +1,9 @@
 
 #Grafico 1 - Histograma y poligono de frecuencia del peso
 
-df_sales <- read.csv(file = 'C:/Archivos_P2/cardio_train.csv')
+df_cardio_train <- read.csv(file = 'C:/Archivos_P2/cardio_train.csv')
 
-histograma<-hist(df_sales$weight, 
+histograma<-hist(df_cardio_train$weight, 
      col="slategray3", 
      border = "dodgerblue4",
      right=TRUE,
